@@ -1,0 +1,23 @@
+{
+  "name": "zenklub-challenge",
+  "version": "1.0.0",
+  "description": "Desafio QA para a Zenklub",
+  "main": "index.js",
+  "repository": "https://github.com/santosvini/zenklub-challenge.git",
+  "author": "Vinicius Santos",
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn cypress open",
+    "cy:run": "cypress run"
+  },
+  "dependencies": {
+    "cypress": "9.7.0"
+  },
+  "keywords": [
+    "automation",
+    "cypress",
+    "e2e",
+    "tests",
+    "zenklub"
+  ]
+}
